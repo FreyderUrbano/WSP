@@ -2,6 +2,73 @@
   text-align: center;
 }
 
+.wsp-img {
+  width: 500px;
+  height: 300px;
+  padding: 10px 20px; 
+}
+
+.nave {
+  background-color: #fff9f9;
+  color: white;
+  padding: 10px 20px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+
+.logo-wsp {
+  width: 80px;
+  height: 80px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 100px;
+ 
+}
+
+nav li:nth-last-child(2) {
+  margin-left: auto;
+  text-decoration: none;
+  color: tomato;
+  font-size: 20px;
+}
+
+.inicio, .planes, .ingresar{
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+.inicio:hover, .planes:hover, .ingresar:hover{
+    color: #04AA6D;
+}
+
+.img-dimensions{
+  width: 100%;
+  height: 600px;
+}
+
+.title-image{
+  text-align: center;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +99,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
